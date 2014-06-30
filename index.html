@@ -32,16 +32,25 @@
     </div>
     <hr />
     <form action="" role="form">
-      <div class="form-group">
-        <label for="form-el-1">Some label</label>
+      <div class="form-group has-warning has-feedback">
+        <label for="form-el-1" class="control-label">Some label</label>
         <input type="text" id="form-el-1" class="form-control">
+        <span class="glyphicon glyphicon-warning-sign form-control-feedback"></span>
       </div>
-      <div class="form-group">
-        <label for="form-el-2">Some label</label>
+      <div class="form-group has-error has-feedback">
+        <label for="form-el-2" class="control-label">Some label</label>
         <input type="text" id="form-el-2" class="form-control">
+        <span class="glyphicon glyphicon-remove form-control-feedback"></span>
+        <p class="help-block">Some help text</p>
+      </div>
+      <div class="form-group has-success has-feedback">
+        <label for="form-el-5" class="control-label">Some label</label>
+        <input type="text" id="form-el-5" class="form-control">
+        <span class="glyphicon glyphicon-ok form-control-feedback"></span>
         <p class="help-block">Some help text</p>
       </div>
     </form>
+    <hr />
     <form action="" role="form" class="form-inline">
       <div class="form-group">
         <label for="form-el-3" class="sr-only">Some label</label>
